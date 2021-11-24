@@ -19,7 +19,7 @@ public class Program5 {
 		//explicit type casting
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File("./screenshots/screenshot5.jpeg");
+		File dest = new File("./ScreenShot/screenshot5.jpeg");
 		Files.copy(src, dest);
 		
 	}

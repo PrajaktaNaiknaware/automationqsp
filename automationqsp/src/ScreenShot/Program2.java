@@ -19,7 +19,7 @@ public class Program2 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		File src = driver.getScreenshotAs(OutputType.FILE);
-		File dest = new File("./screenshots/screenshot2.jpeg");
+		File dest = new File("./ScreenShot/screenshot2.jpeg");
 		Files.copy(src, dest);
 
 	}

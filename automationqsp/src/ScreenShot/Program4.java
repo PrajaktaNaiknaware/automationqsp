@@ -23,7 +23,7 @@ public class Program4 {
 
 		RemoteWebDriver rwd = (RemoteWebDriver)driver;
 		File src = rwd.getScreenshotAs(OutputType.FILE);
-		File dest = new File("./screenshots/screenshot4.jpeg");
+		File dest = new File("./ScreenShot/screenshot4.jpeg");
 		Files.copy(src, dest);
 	}
 

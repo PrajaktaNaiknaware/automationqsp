@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[method215]]>
+    </line>
+    <line>
+      <![CDATA[method114]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31" started-at="2021-11-16T18:04:52 IST" finished-at="2021-11-16T18:04:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31" started-at="2021-11-16T18:04:52 IST" finished-at="2021-11-16T18:04:52 IST">
+      <class name="ParallelExecution.MethodsParallely">
+        <test-method status="PASS" signature="a()[pri:0, instance:ParallelExecution.MethodsParallely@1e965684]" name="a" duration-ms="0" started-at="2021-11-16T18:04:52 IST" finished-at="2021-11-16T18:04:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[method114]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:ParallelExecution.MethodsParallely@1e965684]" name="b" duration-ms="0" started-at="2021-11-16T18:04:52 IST" finished-at="2021-11-16T18:04:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[method215]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b -->
+      </class> <!-- ParallelExecution.MethodsParallely -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

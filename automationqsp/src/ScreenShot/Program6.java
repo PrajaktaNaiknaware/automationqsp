@@ -20,7 +20,7 @@ public class Program6 {
 	
 		EventFiringWebDriver efw = new EventFiringWebDriver(driver);
 		File src = efw.getScreenshotAs(OutputType.FILE);
-		File dest = new File("./screenshots/screenshot6.jpeg");
+		File dest = new File("./ScreenShot/screenshot6.jpeg");
 		Files.copy(src, dest);
 	}
 
